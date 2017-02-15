@@ -10,7 +10,14 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </head>
-<body>
+<style>
+	.jumbotron{
+		background-image: url('fadeblue.jpg'); 
+		background-attachment: fixed;
+	}
+	.progress-bar{font-size: 15px;}
+	</style>
+<body style="padding-top: 40px">
 <!--Menú -->
 	<div class="navbar navbar-default navbar-fixed-top" id="my-menu">
 		<div class="container">
@@ -27,12 +34,60 @@
   			<div class="collapse navbar-collapse" id="navbar-collapse">
 				<ul class="nav navbar-nav">
 					<li><a href="#whoAmI">Who am I?</a></li>
-					<li><a href="#School">School and Stuff</a></li>
+					<li><a href="#School">School and Skills</a></li>
 					<li><a href="#Passions">My Passions and Hobbies</a></li>
 					<li><a href="#Contact">Contact</a></li>
 				</ul>
 			</div>
 		</div>
+	</div>
+
+<!--Who am I section-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="whoAmI">
+				<h2>Who am I?. <small>I'm Diego Mendoza</small></h2>
+			</div>
+	<div class="container-fluid bg-1 text-center">
+  <img src="profile.png" class="img-responsive img-circle margin" style="display:inline" alt="me" width="350" height="350">
+  <h3>I'm an adventurer</h3>
+</div>		
+			
+	</div>
+
+		</section>
+<!-- Skills section-->
+	<div class="container">
+		<section>
+			<div class="page header" id="School">
+				<h2>School and Skills. <small>What I do?</small></h2>
+				<hr>
+<!--School sub-section-->
+				<div class="container">
+				  <div class="jumbotron text-center">
+				  	<img src="ugto-wide.png" class="img-responsive center-block"" style="display:inline" alt="UGTO" width="504">
+				    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
+				    responsive, mobile-first projects on the web.</p> 
+				  </div>
+				</div>
+<!--Skills sub-section-->
+				<h3>My Skills</h3>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-striped progress-bar-success" role="progressbar" style="width:30%">
+				    Android Developer - 30%
+				  </div>
+				  <div class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width:20%">
+				    Front End - 20%
+				  </div>
+				  <div class="progress-bar progress-bar-striped progress-bar-info" role="progressbar" style="width:20%">
+				    SQL Database - 20%
+				  </div>
+				  <div class="progress-bar progress-bar-striped progress-bar-success" role="progressbar" style="width:30%">
+				    Electronics - 30%
+				  </div>
+				</div>
+			</div>
+		</section>
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
