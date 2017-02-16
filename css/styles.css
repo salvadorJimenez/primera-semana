@@ -2,9 +2,19 @@
 		background-image: url('../media/minimal-wallpaper-2.jpg'); 
 		background-attachment: fixed;
 }
+.jumbotron{background-color:#f2f2f2}
 .progress-bar{
 	font-size: 15px;
 	color: #333
+}
+.page-header{
+	margin: 20px;
+}
+h2{
+	margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+    font-weight: bold;
 }
 body{
 		padding-top: 40px; 
