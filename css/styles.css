@@ -1,20 +1,41 @@
-.bk-1{
-		background-image: url('../media/01.jpg'); 
-		background-attachment: fixed;
-        box-shadow: inset 0px 0px 20px rgba(0,0,0,0.5);
+/*
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Mada', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Bangers', cursive;
+*/
+
+#my-menu{
+    background: #003357;
+    border-bottom: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
 }
 
-.jumbotron{
-    background-color:#f2f2f2
+#my-menu a{
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
 }
 
-.progress-bar{
-	font-size: 15px;
-	color: #333
+.active>a{
+    background:#90ABBA !important;
+}
+
+section{
+    width: 100%;
 }
 
 .page-header{
-	margin: 20px;
+    margin:0px;
+}
+.bk-1{
+		background:#E8E8E8;
+        /*box-shadow: inset 0px 0px 20px rgba(0,0,0,0.5);*/
+}
+
+.jumbotron{
+    background-color:#f2f2f2;
 }
 
 .well{
@@ -39,7 +60,7 @@ h2{
 
 body{
 		padding-top: 40px; 
-        background-color: #FFF;
+        background-color: #CFCFCF;
         /*background-attachment: fixed;
 		background: url('../media/minimal-wallpaper-2.jpg');*/
 }
@@ -103,4 +124,8 @@ animation: fadein 2.5s;
     0%{background-position:50% 0%}
     50%{background-position:50% 100%}
     100%{background-position:50% 0%}
+}
+
+.row{
+    margin:0;
 }
